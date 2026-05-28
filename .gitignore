@@ -1,0 +1,14 @@
+# Desconsiderar dependências pesadas do Node
+node_modules/
+front/agente/node_modules/
+
+# Desconsiderar variáveis de ambiente e chaves secretas (sua GROQ_API_KEY)
+.env
+
+# Arquivos de log locais
+*.log
+
+# Arquivos temporários de build do React
+dist/
+build/
+.DS_Store
